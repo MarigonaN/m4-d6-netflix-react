@@ -26,7 +26,7 @@ class Movie extends Component {
       method: "POST",
       body: JSON.stringify(this.state.newComment),
       headers: new Headers({
-        Authorization: "[INSERT_YOUR_AUTH_HERE]",
+        Authorization: "Basic dXNlcjE5Okh4eDhSNHdaZkNBTmFtcmo6",
         "Content-Type": "application/json",
       }),
     });
